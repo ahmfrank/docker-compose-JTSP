@@ -22,8 +22,10 @@ $ docker pull sonarqube
 $ docker pull postgresql
 $ docker build -t tomcat ./
 $ docker-compose -f jtsp.yml up
+
 Open Jenkins server: http://localhost:8180
 Open Tomcat server: http://localhost:8280
 Open SonarQube server: http://localhost:9000
 To configure Jenkins server and build your source code, please look into follwoing link:
+
 https://phitonboarding.atlassian.net/wiki/spaces/DAD/pages/642940947/Configuring+Jenkins+version-2.0
